@@ -44,7 +44,7 @@
                     <td>${prod.category}</td>
                     <td>${prod.price}</td>
                     <td>${prod.productQuantity}</td>
-                    <td><input type="submit" value="add to cart"></td>
+                    <td><input type="submit" value="Add to cart"></td>
                     </form:form>
                     
                 </tr>
@@ -52,7 +52,6 @@
                 
             </c:forEach>
             <tr>
-                <!--td><a href="viewCart">View Cart</a> </td-->
                <td><a href="viewCart?userId=${userId}">View Cart</a> 
                		<a href="showPurchases?userId=${userId}">My purchases</a> 
                </td>

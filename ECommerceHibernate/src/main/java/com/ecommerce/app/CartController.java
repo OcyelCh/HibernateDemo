@@ -53,9 +53,10 @@ public class CartController {
 		return "redirect:/addingPurchase";
 	}
 	
-	@RequestMapping(value = "/clearCart", method = RequestMethod.GET) 
-	public String clearCart(@RequestParam("userId") Integer userId, RedirectAttributes ra) {
-		cartService.clearCart();
+	@RequestMapping(value = "/newCart", method = RequestMethod.GET) 
+	public String newCart(@RequestParam("userId") Integer userId, RedirectAttributes ra) {
+		cartService.newCart();
+		System.out.println("New cart generated");
 		ra.addAttribute("userId", userId);
 		return "redirect:/getProducts";
 	}

@@ -37,8 +37,7 @@
             </c:forEach>
             <!-- total Y boton de regreso -->
             <tr>
-                <td><a href="getProducts?userId=${userId}">Get back to the list of products</a> </td>
-                <!--  td><a href="clearCart?userId=${userId}">Get back to the list of products</a> </td-->
+                <td><a href="newCart?userId=${userId}">Get back to the list of products</a> </td-->
                 <td></td>
                 <td>Total: ${total}</td>               
             </tr>

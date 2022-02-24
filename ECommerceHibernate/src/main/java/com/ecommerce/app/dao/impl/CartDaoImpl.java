@@ -50,7 +50,7 @@ public class CartDaoImpl implements CartDao{
 		return total;
 	}
 	
-	public void clearCart() {
+	public void newCart() {
 		cart.clear();
 	}
 	

@@ -34,7 +34,7 @@ public class CartServiceImpl implements CartService{
 	} 
 	
 	@Override
-	public void clearCart() {
-		cartDao.clearCart();
+	public void newCart() {
+		cartDao.newCart();
 	}
 }

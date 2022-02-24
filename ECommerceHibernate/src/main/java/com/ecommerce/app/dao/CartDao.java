@@ -13,6 +13,6 @@ public interface CartDao {
 	
 	public double getTotal();
 	
-	public void clearCart();
+	public void newCart();
 
 }

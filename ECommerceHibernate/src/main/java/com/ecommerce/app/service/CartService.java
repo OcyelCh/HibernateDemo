@@ -16,6 +16,6 @@ public interface CartService {
 	
 	public double getTotal();
 	
-	public void clearCart();
+	public void newCart();
 
 }

@@ -31,7 +31,7 @@
                     <td>${prod.price}</td>
                 </tr>
             </c:forEach>
-            <tr><p>${purchase.total}</p></tr>
+            <tr><td>Total: ${purchase.total}</td></tr>
             		
         </table>
 
